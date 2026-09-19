@@ -36,7 +36,7 @@ displayName="${mod_name}" #mandatory
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
+logoFile="colorsplash_logo.png"
 
 # A text field displayed in the mod UI
 #credits="" #optional
@@ -46,7 +46,7 @@ authors="Keitooo_"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Example mod description.
+Expands the available materials used while trimming armor - compatible with multiple other mods and more to come!
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.

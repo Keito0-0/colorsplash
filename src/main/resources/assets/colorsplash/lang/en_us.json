@@ -1,13 +1,3 @@
 {
-  "itemGroup.colorsplash": "Example Mod Tab",
-  "block.colorsplash.example_block": "Example Block",
-  "item.colorsplash.example_item": "Example Item",
 
-  "colorsplash.configuration.title": "Color Splash Configs",
-  "colorsplash.configuration.section.colorsplash.common.toml": "Color Splash Configs",
-  "colorsplash.configuration.section.colorsplash.common.toml.title": "Color Splash Configs",
-  "colorsplash.configuration.items": "Item List",
-  "colorsplash.configuration.logDirtBlock": "Log Dirt Block",
-  "colorsplash.configuration.magicNumberIntroduction": "Magic Number Text",
-  "colorsplash.configuration.magicNumber": "Magic Number"
 }
