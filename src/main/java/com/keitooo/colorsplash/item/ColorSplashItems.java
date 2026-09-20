@@ -6,7 +6,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-public class ColorsplashItems {
+public class ColorSplashItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ColorSplash.MOD_ID);
 
     public static final DeferredItem<Item> ROSE_GOLD = ITEMS.register("rose_gold",

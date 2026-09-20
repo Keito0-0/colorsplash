@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "trims/items/leggings_trim",
+        "trims/items/chestplate_trim",
+        "trims/items/helmet_trim",
+        "trims/items/boots_trim"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "blaze_rod": "colorsplash:trims/color_palettes/blaze_rod",
+        "crying_obsidian": "colorsplash:trims/color_palettes/crying_obsidian",
+        "echo_shard": "colorsplash:trims/color_palettes/echo_shard",
+        "end_crystal": "colorsplash:trims/color_palettes/end_crystal",
+        "ender_pearl": "colorsplash:trims/color_palettes/ender_pearl",
+        "glowstone_dust": "colorsplash:trims/color_palettes/glowstone_dust",
+        "leather": "colorsplash:trims/color_palettes/leather",
+        "leather_darker": "colorsplash:trims/color_palettes/leather_darker",
+        "magma_block": "colorsplash:trims/color_palettes/magma_block",
+        "magma_cream": "colorsplash:trims/color_palettes/magma_cream",
+        "nautilus_shell": "colorsplash:trims/color_palettes/nautilus_shell",
+        "nether_star": "colorsplash:trims/color_palettes/nether_star",
+        "netherite_scrap": "colorsplash:trims/color_palettes/netherite_scrap",
+        "obsidian": "colorsplash:trims/color_palettes/obsidian",
+        "phantom_membrane": "colorsplash:trims/color_palettes/phantom_membrane",
+        "prismarine_shard": "colorsplash:trims/color_palettes/prismarine_shard",
+        "prismarine_crystals": "colorsplash:trims/color_palettes/prismarine_crystals",
+        "rabbit_hide": "colorsplash:trims/color_palettes/rabbit_hide",
+        "shulker_shell": "colorsplash:trims/color_palettes/shulker_shell",
+        "slime_ball": "colorsplash:trims/color_palettes/slime_ball",
+        "turtle_scute": "colorsplash:trims/color_palettes/turtle_scute",
+        "turtle_scute_darker": "colorsplash:trims/color_palettes/turtle_scute_darker",
+        "nether_wart": "colorsplash:trims/color_palettes/nether_wart",
+        "dripstone_block": "colorsplash:trims/color_palettes/dripstone_block",
+        "ghast_tear": "colorsplash:trims/color_palettes/ghast_tear",
+        "blue_ice": "colorsplash:trims/color_palettes/blue_ice",
+        "dragon_breath": "colorsplash:trims/color_palettes/dragon_breath",
+        "heart_of_the_sea": "colorsplash:trims/color_palettes/heart_of_the_sea",
+        "glass": "colorsplash:trims/color_palettes/glass",
+        "rose_gold": "colorsplash:trims/color_palettes/rose_gold",
+        "armadillo_scute": "colorsplash:trims/color_palettes/armadillo_scute",
+        "breeze_rod": "colorsplash:trims/color_palettes/breeze_rod"
+      }
+    }
+  ]
+}

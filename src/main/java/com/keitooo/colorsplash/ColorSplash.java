@@ -1,6 +1,6 @@
 package com.keitooo.colorsplash;
 
-import com.keitooo.colorsplash.item.ColorsplashItems;
+import com.keitooo.colorsplash.item.ColorSplashItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Items;
@@ -38,7 +38,7 @@ public class ColorSplash {
         NeoForge.EVENT_BUS.register(this);
 
 
-        ColorsplashItems.register(modEventBus);
+        ColorSplashItems.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -55,7 +55,7 @@ public class ColorSplash {
             return;
         }
         // adds the custom item after a vanilla item in the ingredients tab
-        event.insertAfter(Items.COPPER_INGOT.getDefaultInstance(), ColorsplashItems.ROSE_GOLD.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        event.insertAfter(Items.COPPER_INGOT.getDefaultInstance(), ColorSplashItems.ROSE_GOLD.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
     }
 
