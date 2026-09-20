@@ -1,5 +1,9 @@
 package com.keitooo.colorsplash;
 
+import com.keitooo.colorsplash.item.ColorsplashItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Items;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -33,6 +37,9 @@ public class ColorSplash {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+
+        ColorsplashItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -44,6 +51,11 @@ public class ColorSplash {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() != CreativeModeTabs.INGREDIENTS) {
+            return;
+        }
+        // adds the custom item after a vanilla item in the ingredients tab
+        event.insertAfter(Items.COPPER_INGOT.getDefaultInstance(), ColorsplashItems.ROSE_GOLD.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
     }
 
