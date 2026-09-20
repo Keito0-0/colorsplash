@@ -1,0 +1,95 @@
+{
+  "patterns": [],
+  "materials": [
+    {
+      "id": "colorsplash:armadillo_scute"
+    },
+    {
+      "id": "colorsplash:blaze_rod"
+    },
+    {
+      "id": "colorsplash:blue_ice"
+    },
+    {
+      "id": "colorsplash:dragon_breath"
+    },
+    {
+      "id": "colorsplash:breeze_rod"
+    },
+    {
+      "id": "colorsplash:crying_obsidian"
+    },
+    {
+      "id": "colorsplash:dripstone_block"
+    },
+    {
+      "id": "colorsplash:echo_shard"
+    },
+    {
+      "id": "colorsplash:end_crystal"
+    },
+    {
+      "id": "colorsplash:ender_pearl"
+    },
+    {
+      "id": "colorsplash:ghast_tear"
+    },
+    {
+      "id": "colorsplash:glass"
+    },
+    {
+      "id": "colorsplash:glowstone_dust"
+    },
+    {
+      "id": "colorsplash:leather"
+    },
+    {
+      "id": "colorsplash:magma_block"
+    },
+    {
+      "id": "colorsplash:magma_cream"
+    },
+    {
+      "id": "colorsplash:nautilus_shell"
+    },
+    {
+      "id": "colorsplash:nether_star"
+    },
+    {
+      "id": "colorsplash:netherite_scrap"
+    },
+    {
+      "id": "colorsplash:obsidian"
+    },
+    {
+      "id": "colorsplash:phantom_membrane"
+    },
+    {
+      "id": "colorsplash:prismarine_shard"
+    },
+    {
+      "id": "colorsplash:prismarine_crystals"
+    },
+    {
+      "id": "colorsplash:rabbit_hide"
+    },
+    {
+      "id": "colorsplash:rose_gold"
+    },
+    {
+      "id": "colorsplash:heart_of_the_sea"
+    },
+    {
+      "id": "colorsplash:shulker_shell"
+    },
+    {
+      "id": "colorsplash:slime_ball"
+    },
+    {
+      "id": "colorsplash:turtle_scute"
+    },
+    {
+      "id": "colorsplash:nether_wart"
+    }
+  ]
+}
